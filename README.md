@@ -6,25 +6,17 @@ TaskThree is a script for managing Linux user accounts, allowing modification of
 
 ## Prerequisites
 
-- Linux OS (e.g., Kali Linux, Ubuntu)
+- Kali Linux
 - Root access
 
 ## Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/taskthree.git
+    git clone https://github.com/AbhiramT21/taskthree.git
     cd taskthree
     ```
 2. Make the script executable:
     ```bash
     chmod +x taskthree.sh
     ```
-
-## Usage
-
-### Modify User Information
-
-Example command to change username, home directory, shell, and add to a group:
-```bash
-./taskthree.sh -m -u olduser -n newuser -d /home/newuser -s /bin/zsh -g developers
